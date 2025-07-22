@@ -24,6 +24,7 @@
     Switch Cisco Catalyst 9200L C9200L-24T, capa L3 con 24 puertos Gigabit, 04 puertos para fibra SFP, Stacking hasta 08
     equipos, Rackeable, CISCO C9200L-24T-4G-E
   </title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 </head>
 
 <body>
@@ -289,36 +290,62 @@
         </aside>
 
         <!-- CONTENIDO PRINCIPAL DE PRODUCTOS (siempre visible) -->
-        <div class="w-full lg:w-4/6 bg-white  rounded-lg shadow">
+        <div class="w-full lg:w-4/6 bg-white  rounded-lg shadow pb-8">
           <div class="mx-auto max-w-[1200px] w-full">
             <!-- Contenedor principal del producto -->
             <div id="information-section" class="mt-5 flex flex-col lg:flex-row gap-6 flex-wrap">
               <!-- Sección de información  e imagenes-->
               <div class="w-full flex flex-col lg:flex-row gap-6">
                 <!-- Sección de imágenes -->
+                <!-- GALERÍA SWIPER -->
                 <div class="lg:w-1/2">
-                  <!-- Imagen principal -->
                   <div class="bg-white rounded-lg shadow-sm p-4">
-                    <div class="w-full h-[400px] flex items-center justify-center overflow-hidden">
-                      <img id="img_main"
-                        src="https://web.netperu100.com/cisco/catalyst/images/C9200L-24T-4G-E_front.jpg"
-                        alt="Switch Catalyst 2960" class="max-h-full max-w-full object-contain cursor-pointer"
-                        onclick="viewImage(this.src)" />
+                    <!-- Swiper Principal -->
+                    <div style="--swiper-navigation-color: #000; --swiper-pagination-color: #000"
+                      class="swiper gallery-top max-h-[500px] object-contain">
+                      <div class="swiper-wrapper">
+                        <div class="swiper-slide flex items-center justify-center">
+                          <div class="swiper-zoom-container">
+                            <img src="https://www.ds3comunicaciones.com/tplink/images/TL-SG3424P_front.jpg"
+                              class="max-h-[400px] object-contain" />
+                          </div>
+                        </div>
+                        <div class="swiper-slide flex items-center justify-center">
+                          <div class="swiper-zoom-container">
+                            <img src="https://www.ds3comunicaciones.com/tplink/images/TL-SG3424P_back.jpg"
+                              class="max-h-[400px] object-contain" />
+                          </div>
+                        </div>
+                        <div class="swiper-slide flex items-center justify-center">
+                          <div class="swiper-zoom-container">
+                            <img src="https://www.ds3comunicaciones.com/tplink/images/TL-SG3424P_box.jpg"
+                              class="max-h-[400px] object-contain" />
+                          </div>
+                        </div>
+                      </div>
+                      <!-- Flechas -->
+                      <div class="swiper-button-next"></div>
+                      <div class="swiper-button-prev"></div>
                     </div>
 
                     <!-- Miniaturas -->
-                    <div class="flex gap-3 mt-4 justify-center">
-                      <div class="w-20 h-20 border rounded p-1 cursor-pointer hover:border-blue-400 transition">
-                        <img src="https://web.netperu100.com/cisco/catalyst/images/C9200L-24T-4G-E_front.jpg"
-                          alt="Vista 1" class="w-full h-full object-contain" onclick="toExchangeImage(this)" />
-                      </div>
-                      <div class="w-20 h-20 border rounded p-1 cursor-pointer hover:border-blue-400 transition">
-                        <img src="https://web.netperu100.com/cisco/catalyst/images/C9200L-24T-4G-E_front_large.jpg"
-                          alt="Vista 2" class="w-full h-full object-contain" onclick="toExchangeImage(this)" />
-                      </div>
-                      <div class="w-20 h-20 border rounded p-1 cursor-pointer hover:border-blue-400 transition">
-                        <img src="https://web.netperu100.com/cisco/catalyst/images/C9200L-24T-4G-E_back.jpg"
-                          alt="Vista 2" class="w-full h-full object-contain" onclick="toExchangeImage(this)" />
+                    <div class="swiper gallery-thumbs mt-4 flex gap-3 mt-4 justify-center">
+                      <div class="swiper-wrapper ">
+                        <div
+                          class="swiper-slide border rounded p-1 w-20 h-20 border rounded p-1 cursor-pointer hover:border-blue-400 transition">
+                          <img src="https://www.ds3comunicaciones.com/tplink/images/TL-SG3424P_front.jpg"
+                            class="w-full h-full object-contain" />
+                        </div>
+                        <div
+                          class="swiper-slide border rounded p-1 w-20 h-20 border rounded p-1 cursor-pointer hover:border-blue-400 transition">
+                          <img src="https://www.ds3comunicaciones.com/tplink/images/TL-SG3424P_back.jpg"
+                            class="w-full h-full object-contain" />
+                        </div>
+                        <div
+                          class="swiper-slide border rounded p-1 w-20 h-20 border rounded p-1 cursor-pointer hover:border-blue-400 transition">
+                          <img src="https://www.ds3comunicaciones.com/tplink/images/TL-SG3424P_box.jpg"
+                            class="w-full h-full object-contain" />
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -326,94 +353,63 @@
 
                 <!-- Sección de información -->
                 <div class="lg:w-full px-1">
-                  <div class="bg-white rounded-lg shadow-sm">
+                  <div class="bg-white rounded-lg shadow-sm p-4 md:p-0">
                     <h1 class="md:text-md font-bold text-black mb-2 ">
                       Switch Cisco Catalyst 9200L C9200L-24T, capa L3 con 24 puertos Gigabit, 04 puertos para fibra SFP
                       C9200L-24T-4G-E
                     </h1>
 
                     <div class="mb-6">
-                      <span class="text-2xl font-bold text-blue-600">U$ 1,195</span>
-                      <a href="https://www.ds3comunicaciones.com/pedido.html"
-                        class="mt-3 inline-flex items-center gap-1 bg-blue-600 text-white font-medium rounded-md px-4 py-2 hover:bg-blue-700 transition"
-                        target="_blank">
-                        <i class="fas fa-shopping-cart"></i>
-                        Comprar ahora
-                      </a>
+                      <div>
+                        <span class="text-2xl font-bold text-blue-600">U$ 1,195</span>
+                      </div>
+                      <div>
+                        <a href="https://www.ds3comunicaciones.com/pedido.html"
+                          class="mt-3 inline-flex items-center gap-1 bg-blue-600 text-white font-medium rounded-md px-4 py-2 hover:bg-blue-700 transition"
+                          target="_blank">
+                          <i class="fas fa-shopping-cart"></i>
+                          Comprar ahora
+                        </a>
+                      </div>
                     </div>
 
                     <div class="border-t pt-4">
                       <h3 class="font-semibold text-md mb-3">
-                        Especificaciones técnicas:
+                        Especificaciones:
                       </h3>
                       <ul class="space-y-2 text-gray-700">
                         <li class="flex items-start text-[#0D274D]">
                           <i class="fa-solid fa-circle text-[10px] text-[#0D274D] mt-1.5 mr-2 text"></i>
-                          <span>24 Puertos Gigabit 10/100/1000</span>
+                          MARCA: TP-LINK
                         </li>
                         <li class="flex items-start text-[#0D274D]">
                           <i class="fa-solid fa-circle text-[10px] text-[#0D274D] mt-1.5 mr-2 text"></i>
-                          <span>04 puertos 1G para fibra SFP</span>
+                          MODELO: SG3424P
                         </li>
                         <li class="flex items-start text-[#0D274D]">
                           <i class="fa-solid fa-circle text-[10px] text-[#0D274D] mt-1.5 mr-2 text"></i>
-                          <span>Switching capacity 56 Gbps</span>
+                          TIPO: ADMINISTRABLE
                         </li>
                         <li class="flex items-start text-[#0D274D]">
                           <i class="fa-solid fa-circle text-[10px] text-[#0D274D] mt-1.5 mr-2 text"></i>
-                          <span>Network Essentials</span>
+                          Cantidad de puertos SFP/SFP+: 4
                         </li>
                         <li class="flex items-start text-[#0D274D]">
                           <i class="fa-solid fa-circle text-[10px] text-[#0D274D] mt-1.5 mr-2 text"></i>
-                          <span>Switch capa L3 full (Layer 3)</span>
+                          Gigabit Ethernet (cobre), cantidad de puertos: 25
                         </li>
                         <li class="flex items-start text-[#0D274D]">
                           <i class="fa-solid fa-circle text-[10px] text-[#0D274D] mt-1.5 mr-2 text"></i>
-                          <span>Switch capacity with Stacking 136 Gbps</span>
+                          Consumo energético: 320 W
                         </li>
                         <li class="flex items-start text-[#0D274D]">
                           <i class="fa-solid fa-circle text-[10px] text-[#0D274D] mt-1.5 mr-2 text"></i>
-                          <span>Forwarding rate 41.67 Mpps</span>
+                          Velocidad de transferencia de datos: 10, 100, 1000 Mbit/s
                         </li>
                         <li class="flex items-start text-[#0D274D]">
                           <i class="fa-solid fa-circle text-[10px] text-[#0D274D] mt-1.5 mr-2 text"></i>
-                          <span>Stacking bandwidth 80 Gbps</span>
-                        </li>
-                        <li class="flex items-start text-[#0D274D]">
-                          <i class="fa-solid fa-circle text-[10px] text-[#0D274D] mt-1.5 mr-2 text"></i>
-                          <span>Soporta stacking hasta 08 equipos</span>
-                        </li>
-                        <li class="flex items-start text-[#0D274D]">
-                          <i class="fa-solid fa-circle text-[10px] text-[#0D274D] mt-1.5 mr-2 text"></i>
-                          <span>Total number of MAC addresses 16,000</span>
-                        </li>
-                        <li class="flex items-start text-[#0D274D]">
-                          <i class="fa-solid fa-circle text-[10px] text-[#0D274D] mt-1.5 mr-2 text"></i>
-                          <span>Memoria DRAM 2 GB</span>
-                        </li>
-                        <li class="flex items-start text-[#0D274D]">
-                          <i class="fa-solid fa-circle text-[10px] text-[#0D274D] mt-1.5 mr-2 text"></i>
-                          <span>Flash memory 4 GB</span>
-                        </li>
-                        <li class="flex items-start text-[#0D274D]">
-                          <i class="fa-solid fa-circle text-[10px] text-[#0D274D] mt-1.5 mr-2 text"></i>
-                          <span>VLAN IDs 4096</span>
-                        </li>
-                        <li class="flex items-start text-[#0D274D]">
-                          <i class="fa-solid fa-circle text-[10px] text-[#0D274D] mt-1.5 mr-2 text"></i>
-                          <span>Jumbo frames 9198 bytes</span>
-                        </li>
-                        <li class="flex items-start text-[#0D274D]">
-                          <i class="fa-solid fa-circle text-[10px] text-[#0D274D] mt-1.5 mr-2 text"></i>
-                          <span>Soporta ACLs, DHCP, EIGRP, OSPF, IGMP vs1/2/3</span>
-                        </li>
-                        <li class="flex items-start text-[#0D274D]">
-                          <i class="fa-solid fa-circle text-[10px] text-[#0D274D] mt-1.5 mr-2 text"></i>
-                          <span>Soporte IPv4/IPv6</span>
-                        </li>
-                        <li class="flex items-start text-[#0D274D]">
-                          <i class="fa-solid fa-circle text-[10px] text-[#0D274D] mt-1.5 mr-2 text"></i>
-                          <span>Montaje en rack (Rack montable)</span>
+                          Estándares de red: IEEE 802.1D, IEEE 802.1p, IEEE 802.1Q, IEEE 802.1s, IEEE 802.1w, IEEE
+                          802.1x, IEEE 802.3ab, IEEE 802.3ad, IEEE 802.3i, IEEE 802.3u, IEEE 802.3x, IEEE 802.3z
                         </li>
                       </ul>
                     </div>
@@ -423,28 +419,22 @@
                         Download:
                       </h3>
                       <div class="flex flex-wrap gap-3">
-                        <!-- Ficha técnica PDF -->
-                        <a href="https://www.ds3comunicaciones.com/cisco/files/catalyst_9200.pdf"
-                          class="flex items-center gap-2 text-blue-600 hover:text-blue-800 border border-gray-200 rounded-md px-4 py-2 hover:bg-gray-50 transition"
-                          target="_blank" rel="noopener noreferrer" aria-label="Descargar ficha técnica en PDF">
-                          <i class="fas fa-file-pdf text-red-500" aria-hidden="true"></i>
-                          <span>Ficha técnica</span>
-                        </a>
+
 
                         <!-- Manual PDF -->
-                        <a href="https://web.netperu100.com/cisco/catalyst/files/Catalyst_9200_manual.pdf"
+                        <a href="https://www.ds3comunicaciones.com/tplink/files/TL-SG3424P_manual.pdf"
                           class="flex items-center gap-2 text-blue-600 hover:text-blue-800 border border-gray-200 rounded-md px-4 py-2 hover:bg-gray-50 transition"
                           target="_blank" rel="noopener noreferrer" aria-label="Descargar manual en PDF">
                           <i class="fas fa-book-open text-blue-500" aria-hidden="true"></i>
-                          <span>Manual</span>
+                          <span>Manual de Usuario</span>
                         </a>
 
                         <!-- Especificaciones PDF  a -->
-                        <a href="https://web.netperu100.com/cisco/catalyst/files/C9200L-24T-4G-E_esp.pdf"
+                        <a href="https://www.ds3comunicaciones.com/tplink/files/TL-SG3424P_ds.pdf"
                           class="flex items-center gap-2 text-blue-600 hover:text-blue-800 border border-gray-200 rounded-md px-4 py-2 hover:bg-gray-50 transition"
                           target="_blank" rel="noopener noreferrer" aria-label="Descargar especificaciones en PDF">
                           <i class="fas fa-file-alt text-green-500" aria-hidden="true"></i>
-                          <span>Especificaciones</span>
+                          <span>Datos Técnicos</span>
                         </a>
                       </div>
                     </div>
@@ -479,20 +469,13 @@
 
             <!-- Controles de pestañas -->
             <div class="flex justify-center mt-6">
-              <div class="inline-flex rounded-md shadow-sm">
-                <button id="product-tab"
-                  class="px-6 py-2 text-xs md:text-sm font-medium rounded-l-lg bg-blue-600 text-white focus:z-10 focus:outline-none">
-                  Producto
-                </button>
-                <button id="images-tab"
-                  class="px-6 py-2 text-xs md:text-sm font-medium rounded-r-lg bg-gray-100 text-gray-700 focus:z-10 focus:outline-none">
-                  Imágenes
-                </button>
-              </div>
+              <span class="px-4 py-1 text-sm font-semibold bg-blue-100 text-blue-800 rounded-full shadow-sm">
+                Producto
+              </span>
             </div>
 
             <!-- desplegables de informacion -->
-            <div class="mt-8 w-full mx-auto space-y-4">
+            <div class="mt-8 w-full mx-auto space-y-4 p-4 md:p-0">
               <!-- Especificaciones Técnicas -->
               <details open class="group border border-gray-200 rounded-lg overflow-hidden shadow-sm">
                 <summary
@@ -502,11 +485,11 @@
                       stroke="currentColor" viewBox="0 0 24 24">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
                     </svg>
-                    Especificaciones Técnicas
+                    Aplicaciones
                   </h3>
                   <span class="text-blue-600 text-xs text-nowrap font-medium">Ver detalles</span>
                 </summary>
-                <div class="p-4 bg-white grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div class="p-4 bg-white grid grid-cols-1 md:grid-cols-1 gap-4">
                   <div class="flex items-start">
                     <div class="flex-shrink-0 h-5 w-5 text-blue-500 mt-0.5">
                       <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -515,8 +498,10 @@
                     </div>
                     <div class="ml-2">
                       <p class="text-gray-700">
-                        <span class="font-medium">Tipo de dispositivo:</span>
-                        Cisco Catalyst 9200L C9200L-24T-4G-E, Switch capa L3 full (Layer 3)
+                        <span class="font-medium">El TL-SG3424P soporta 24 puertos de PoE en cumplimiento con 802.3
+                          at/af con una fuente de alimentación total de 320W. El Vínculo IP-MAC-Puerto-VID, Seguridad de
+                          Puertos, Defensa DoS, Control de tormentas, el Snooping DHCP, la Autentificación 802.1X y el
+                          Radio le ofrece sus estrategias de seguridad robusta.</span>
                       </p>
                     </div>
                   </div>
@@ -528,8 +513,8 @@
                     </div>
                     <div class="ml-2">
                       <p class="text-gray-700">
-                        <span class="font-medium">Conectividad:</span> 24 puertos Gigabit 10/100/1000 + 4 puertos 1G
-                        para fibra SFP
+                        <span class="font-medium">El Snooping L2/L3/L4 QoS y IGMP optimizar la aplicación de voz y
+                          video.</span>
                       </p>
                     </div>
                   </div>
@@ -541,19 +526,8 @@
                     </div>
                     <div class="ml-2">
                       <p class="text-gray-700">
-                        <span class="font-medium">Dimensiones:</span> 445 x 332 x 44 mm
-                      </p>
-                    </div>
-                  </div>
-                  <div class="flex items-start">
-                    <div class="flex-shrink-0 h-5 w-5 text-blue-500 mt-0.5">
-                      <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                      </svg>
-                    </div>
-                    <div class="ml-2">
-                      <p class="text-gray-700">
-                        <span class="font-medium">Peso:</span> 5.4 kg
+                        <span class="font-medium">Los modos de administrador por WEB/CLI, SNMP, RMON aporta una gran
+                          variedad de características de administración.</span>
                       </p>
                     </div>
                   </div>
@@ -570,7 +544,7 @@
                       stroke="currentColor" viewBox="0 0 24 24">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
                     </svg>
-                    Protocolos Soportados
+                    Desempeño Superior
                   </h3>
                   <span class="text-blue-600 text-xs text-nowrap font-medium">Ver detalles</span>
                 </summary>
@@ -585,23 +559,14 @@
                       </div>
                       <div class="ml-2">
                         <p class="text-gray-700">
-                          <span class="font-medium">Protocolo de direccionamiento:</span>
-                          OSPF, IS-IS, BGP, EIGRP, DVMRP, PIM-SM, IGMPv3, GRE, PIM-SSM, enrutamiento IPv4 estático,
-                          enrutamiento IPv6 estático
-                        </p>
-                      </div>
-                    </div>
-                    <div class="flex items-start">
-                      <div class="flex-shrink-0 h-5 w-5 text-blue-500 mt-0.5">
-                        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7">
-                          </path>
-                        </svg>
-                      </div>
-                      <div class="ml-2">
-                        <p class="text-gray-700">
-                          <span class="font-medium">Protocolo de gestión remota:</span>
-                          SNMP 1, RMON, Telnet, SNMP 3, SNMP 2c, HTTP, HTTPS, SSH
+                          <span class="font-medium">El TL-SG3424P cuenta con 24 puertos 10/100/1000Mbps que soportan PoE
+                            802.3af/at, con un presupuesto total de potencia de hasta 320W, suficientemente potente y
+                            flexible para que los usuarios desplieguen puntos de acceso inalámbricos o cámaras IP de
+                            vigilancia. El switch también viene equipado con 4 ranuras SFP Combo que expanden su red
+                            flexiblemente. Además, proporciona alto rendimiento, QoS de nivel empresarial, estrategias
+                            de seguridad avanzadas y múltiples variantes de gestión de nivel 2. Con todas estas
+                            características, el switch PoE gestionable L2 JetStreamTM Gigabit es una elección ideal para
+                            la red de una pequeña o mediana empresa.</span>
                         </p>
                       </div>
                     </div>
@@ -619,66 +584,110 @@
                       stroke="currentColor" viewBox="0 0 24 24">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
                     </svg>
-                    Cumplimiento de Normas
+                    Ventajas
                   </h3>
                   <span class="text-blue-600 text-xs text-nowrap font-medium">Ver detalles</span>
                 </summary>
-                <div class="p-4 bg-white">
+                <div class="p-4 bg-white grid grid-cols-1 md:grid-cols-1 gap-4">
                   <div class="flex items-start">
                     <div class="flex-shrink-0 h-5 w-5 text-blue-500 mt-0.5">
                       <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7">
+                        </path>
                       </svg>
                     </div>
                     <div class="ml-2">
                       <p class="text-gray-700">
-                        IEEE 802.3, IEEE 802.3u, IEEE 802.3z, IEEE 802.1D, IEEE 802.1Q, IEEE 802.3ab, IEEE 802.1p, IEEE
-                        802.3af, IEEE 802.3x, IEEE 802.3ad (LACP), IEEE 802.1w, IEEE 802.1x, IEEE 802.1s, IEEE 802.3ah,
-                        IEEE 802.1ab (LLDP)
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </details>
-
-              <!-- Certificaciones y Ambiente -->
-              <details class="group border border-gray-200 rounded-lg overflow-hidden shadow-sm">
-                <summary
-                  class="flex items-center justify-between p-4 bg-gray-50 hover:bg-gray-100 cursor-pointer transition-colors">
-                  <h3 class="font-semibold text-black flex items-center">
-                    <svg class="w-5 h-5 mr-2 text-blue-600 transition-transform group-open:rotate-90" fill="none"
-                      stroke="currentColor" viewBox="0 0 24 24">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
-                    </svg>
-                    Certificaciones y Ambiente
-                  </h3>
-                  <span class="text-blue-600 text-xs text-nowrap font-medium">Ver detalles</span>
-                </summary>
-                <div class="p-4 bg-white grid grid-cols-1 md:grid-cols-2 gap-4">
-                  <div class="flex items-start">
-                    <div class="flex-shrink-0 h-5 w-5 text-blue-500 mt-0.5">
-                      <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                      </svg>
-                    </div>
-                    <div class="ml-2">
-                      <p class="text-gray-700">
-                        <span class="font-medium">Certificaciones:</span>
-                        CE, TUV GS, cUL, EN 60950, EN55022, NOM, VCCI Class A ITE, IEC 60950, EN55024, FCC Part 15, UL
-                        1950 (3), CSA 22.2 No. 950 (3)
+                        <span class="font-medium">El TL-SG3424P incorpora potentes funciones de seguridad y
+                          gestión.</span>
                       </p>
                     </div>
                   </div>
                   <div class="flex items-start">
                     <div class="flex-shrink-0 h-5 w-5 text-blue-500 mt-0.5">
                       <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7">
+                        </path>
                       </svg>
                     </div>
                     <div class="ml-2">
                       <p class="text-gray-700">
-                        <span class="font-medium">Temperatura de operación:</span>
-                        -5 – 45 °C
+                        <span class="font-medium">A nivel de seguridad, incorpora las funciones de vinculación
+                          IP-MAC-puerto-VID y Listas de Control de Acceso (ACL) que le protegen de ataques de tipo
+                          Broadcast Storm, ARP y de Denegación de Servicio (DoS), etc.</span>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="flex items-start">
+                    <div class="flex-shrink-0 h-5 w-5 text-blue-500 mt-0.5">
+                      <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7">
+                        </path>
+                      </svg>
+                    </div>
+                    <div class="ml-2">
+                      <p class="text-gray-700">
+                        <span class="font-medium">Su Calidad de Servicio (QoS, de L2 a L4) permite gestionar mejor el
+                          tráfico de la red asegurando así una transmisión de los datos más fluida y rápida.</span>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="flex items-start">
+                    <div class="flex-shrink-0 h-5 w-5 text-blue-500 mt-0.5">
+                      <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7">
+                        </path>
+                      </svg>
+                    </div>
+                    <div class="ml-2">
+                      <p class="text-gray-700">
+                        <span class="font-medium">Además de su sencilla interfaz de gestión vía web, incorpora CLI,
+                          SNMP y RMON que permiten una instalación y configuración más rápida, así como menores
+                          tiempos de parada.</span>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="flex items-start">
+                    <div class="flex-shrink-0 h-5 w-5 text-blue-500 mt-0.5">
+                      <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7">
+                        </path>
+                      </svg>
+                    </div>
+                    <div class="ml-2">
+                      <p class="text-gray-700">
+                        <span class="font-medium">El switch PoE gestionable L2 JetStreamTM TL-SG3424P de TP-LINK
+                          resulta una solución ideal para los grupos de trabajo y departamentos que necesitan un
+                          switch L2 con capacidad Gigabit asequible.</span>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="flex items-start">
+                    <div class="flex-shrink-0 h-5 w-5 text-blue-500 mt-0.5">
+                      <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7">
+                        </path>
+                      </svg>
+                    </div>
+                    <div class="ml-2">
+                      <p class="text-gray-700">
+                        <span class="font-medium">El switch aplica una completa política de calidad de servicio (QoS)
+                          para integrar en la red los servicios de voz, datos y vídeo.</span>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="flex items-start">
+                    <div class="flex-shrink-0 h-5 w-5 text-blue-500 mt-0.5">
+                      <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7">
+                        </path>
+                      </svg>
+                    </div>
+                    <div class="ml-2">
+                      <p class="text-gray-700">
+                        <span class="font-medium">El TL-SG3424P dispone de una completa gama de características Layer
+                          2 tales como VLAN etiquetadas 802.1Q, Port Mirroring, STP/RSTP/MSTP, Link Aggregation
+                          Control Protocol y Control de Flujo 802.3x.</span>
                       </p>
                     </div>
                   </div>
@@ -850,32 +859,33 @@
       <div class="container mx-auto px-4 max-w-6xl">
         <!-- Encabezado -->
         <div class="text-center mb-8">
-          <h2 class="text-2xl md:text-3xl font-bold text-white bg-[#049FD9] py-4 px-6 rounded-lg shadow-md inline-block">
+          <h2
+            class="text-2xl md:text-3xl font-bold text-white bg-[#049FD9] py-4 px-6 rounded-lg shadow-md inline-block">
             También Disponible: Cisco Catalyst 9200 en stock
           </h2>
         </div>
 
-         <!-- Grid de productos -->
+        <!-- Grid de productos -->
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
 
           <!-- Producto 1 -->
-          <a href="https://web.netperu100.com/cisco/catalyst/C9200L-24P-4G-E.html"
+          <a href="https://web.netperu100.com/cisco/catalyst/TL-SG3424P.html"
             class="group bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300 border border-gray-200 hover:border-blue-500">
             <div class="p-5 flex flex-col h-full">
               <div class="flex-grow flex items-center justify-center mb-4 h-40">
-                <img src="https://web.netperu100.com/cisco/catalyst/images/C9200L-24P-4G-E_front.jpg"
-                  alt="Switch Cisco WS-C9200L-24P-4G-E"
+                <img src="https://www.ds3comunicaciones.com/tplink/images/TL-SG3424P_front.jpg"
+                  alt="Switch Cisco TL-SG3424P"
                   class="max-h-full max-w-full object-contain transition-transform duration-300 group-hover:scale-105" />
               </div>
               <div class="border-t pt-4">
                 <div class="flex justify-between flex-col items-center mb-2">
                   <h3 class="text-lg font-bold text-gray-800">
-                    C9200L-24P-4G-E
+                    TL-SG3424P
                   </h3>
                 </div>
                 <p class="text-sm text-gray-600 mt-2 group-hover:text-gray-800 transition-colors line-clamp-2">
-                   Switch Cisco Catalyst 9200L Essentials C9200L-24P, capa L3 con 24 puertos PoE+
-    (370W) Gigabit, 04 puertos para fibra SFP, Stacking hasta 08 equipos, Rackeable, CISCO C9200L-24P-4G-E
+                  Switch Cisco Catalyst 9200L Essentials C9200L-24P, capa L3 con 24 puertos PoE+
+                  (370W) Gigabit, 04 puertos para fibra SFP, Stacking hasta 08 equipos, Rackeable, CISCO TL-SG3424P
                 </p>
                 <div class="text-center mt-6 text-blue-600 font-semibold">
                   Ver Producto
@@ -899,7 +909,8 @@
                   </h3>
                 </div>
                 <p class="text-sm text-gray-600 mt-2 group-hover:text-gray-800 transition-colors line-clamp-2">
-                   Switch Cisco Catalyst 9200L Essentials C9200L-24T, capa L3 con 24 puertos Gigabit, 04 puertos 10G para fibra SFP+, Stacking hasta 08 equipos, Rackeable, CISCO C9200L-24T-4X-E
+                  Switch Cisco Catalyst 9200L Essentials C9200L-24T, capa L3 con 24 puertos Gigabit, 04 puertos 10G para
+                  fibra SFP+, Stacking hasta 08 equipos, Rackeable, CISCO C9200L-24T-4X-E
                 </p>
                 <div class="text-center mt-6 text-blue-600 font-semibold">
                   Ver Producto
@@ -924,8 +935,9 @@
                   </h3>
                 </div>
                 <p class="text-sm text-gray-600 mt-2 group-hover:text-gray-800 transition-colors line-clamp-2">
-                   Switch Cisco Catalyst 9200L Essentials C9200L-24P, capa L3 con 24 puertos PoE+
-    (370W) Gigabit, 04 puertos 10G para fibra SFP+, Stacking hasta 08 equipos, Rackeable, CISCO C9200L-24P-4X-E
+                  Switch Cisco Catalyst 9200L Essentials C9200L-24P, capa L3 con 24 puertos PoE+
+                  (370W) Gigabit, 04 puertos 10G para fibra SFP+, Stacking hasta 08 equipos, Rackeable, CISCO
+                  C9200L-24P-4X-E
                 </p>
                 <div class="text-center mt-6 text-blue-600 font-semibold">
                   Ver Producto
@@ -950,7 +962,8 @@
                   </h3>
                 </div>
                 <p class="text-sm text-gray-600 mt-2 group-hover:text-gray-800 transition-colors line-clamp-2">
-                   Switch Cisco Catalyst 9200L Essentials C9200L-48T, capa L3 con 48 puertos Gigabit, 04 puertos para fibra SFP, Stacking hasta 08 equipos, Rackeable, CISCO C9200L-48T-4G-E
+                  Switch Cisco Catalyst 9200L Essentials C9200L-48T, capa L3 con 48 puertos Gigabit, 04 puertos para
+                  fibra SFP, Stacking hasta 08 equipos, Rackeable, CISCO C9200L-48T-4G-E
                 </p>
                 <div class="text-center mt-6 text-blue-600 font-semibold">
                   Ver Producto
@@ -975,8 +988,8 @@
                   </h3>
                 </div>
                 <p class="text-sm text-gray-600 mt-2 group-hover:text-gray-800 transition-colors line-clamp-2">
-                   Switch Cisco Catalyst 9200L Essentials C9200L-48P, capa L3 con 48 puertos PoE+
-    (740W) Gigabit, 04 puertos para fibra SFP, Stacking hasta 08 equipos, Rackeable, CISCO C9200L-48P-4G-E
+                  Switch Cisco Catalyst 9200L Essentials C9200L-48P, capa L3 con 48 puertos PoE+
+                  (740W) Gigabit, 04 puertos para fibra SFP, Stacking hasta 08 equipos, Rackeable, CISCO C9200L-48P-4G-E
                 </p>
                 <div class="text-center mt-6 text-blue-600 font-semibold">
                   Ver Producto
@@ -1000,7 +1013,8 @@
                   </h3>
                 </div>
                 <p class="text-sm text-gray-600 mt-2 group-hover:text-gray-800 transition-colors line-clamp-2">
-                   Switch Cisco Catalyst 9200L Essentials C9200L-48T, capa L3 con 48 puertos Gigabit, 04 puertos 10G para fibra SFP+, Stacking hasta 08 equipos, Rackeable, CISCO C9200L-48T-4X-E
+                  Switch Cisco Catalyst 9200L Essentials C9200L-48T, capa L3 con 48 puertos Gigabit, 04 puertos 10G para
+                  fibra SFP+, Stacking hasta 08 equipos, Rackeable, CISCO C9200L-48T-4X-E
                 </p>
                 <div class="text-center mt-6 text-blue-600 font-semibold">
                   Ver Producto
@@ -1140,7 +1154,30 @@
     </div>
   </footer>
   <!-- CARGA DE JAVASCRIPT  SECUNDARIA-->
-  <script src="./js/change_tabs.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script>
+    const galleryThumbs = new Swiper('.gallery-thumbs', {
+      spaceBetween: 10,
+      slidesPerView: 3,
+      freeMode: true,
+      watchSlidesProgress: true,
+    });
+
+    const galleryTop = new Swiper('.gallery-top', {
+      spaceBetween: 10,
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      thumbs: {
+        swiper: galleryThumbs,
+      },
+      zoom: {
+        maxRatio: 3,
+      },
+
+    });
+  </script>
 </body>
 
 </html>
